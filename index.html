@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+	<!-- Header -->
 	<div class="header-fluid">
 		<div class="container">
 			<header class="header">
@@ -31,9 +32,11 @@
 		</div>
 	</div>
 	<main class="main">
+		<!-- Главная картинка с эмблемой -->
 		<div class="image">
 			<img class="image__picture" src="img/hero-circuit-bg.svg" alt="GitHub picture">
 		</div>
+		<!-- Блок с предложением начать использование -->
 		<section class="start">
 			<div class="container">
 				<h2 class="start__title">Build your app on GitHub's platform</h2>
@@ -44,6 +47,52 @@
 				<hr class="start__hr">			
 			</div>
 		</section>
+		<!-- Секция со статьями и сайдбаром -->
+		<div class="container">
+			<section class="content">			
+				<!-- Статьи -->
+				<div class="articles">				
+					<article class="article">
+						<h3 class="title">Introduction to GraphQL</h3>
+						<p class="text">Let's walk through the inner workings of our GraphQL API.</p>
+						<a class="link-cons" href="#">Read the guide &#8594;</a>
+					</article>
+					<article class="article">
+						<h3 class="title">Forming API calls with GraphQL</h3>
+						<p class="text">In this section, we're going to focus on how to form a GraphQL API call.</p>
+						<a class="link-cons" href="#">Read the guide &#8594;</a>
+					</article>
+					<article class="article">
+						<h3 class="title">Migrating from REST to GraphQL</h3>
+						<p class="text">We'll also help you explore the path to migrating from REST to GraphQL.</p>
+						<a class="link-cons" href="#">Read the guide &#8594;</a>
+					</article>
+					<article class="article">
+						<h3 class="title">Building a GitHub App or an OAuth App</h3>
+						<p class="text">Choose GitHub Apps or OAuth Apps to get started developing an integration.</p>
+						<a class="link-cons" href="#">Read the docs &#8594;</a>
+					</article>
+				</div>					
+				<!-- Сайдбар -->
+				<aside class="sidebar">
+					<div class="sidebar__block">
+						<h2 class="title sidebar__title">Ecosystem</h2>
+						<p class="text sidebar__text">Showcase what you've built on GitHub</p>
+					</div>
+					<div class="sidebar__block">
+						<ul class="sidebar__list">
+							<li class="sidebar__list-item"><a class="link-cons sidebar_link" href="#">Marketplace</a></li>
+							<li class="sidebar__list-item"><a class="link-cons sidebar_link" href="#">Marketplace Guidelines</a></li>
+							<li class="sidebar__list-item"><a class="link-cons sidebar_link" href="#">Work with GitHub</a></li>
+							<li class="sidebar__list-item"><a class="link-cons sidebar_link" href="#">Work with GitHub Guidelines</a></li>
+						</ul>
+					</div>
+					<div class="sidebar__block">
+						<a class="sidebar__footer-link" href="#">Join the GitHub Developer Program</a>
+					</div>
+				</aside>	
+			</section>				
+		</div>		
 	</main>
 </body>
 </html>
