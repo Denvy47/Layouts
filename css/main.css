@@ -1,10 +1,13 @@
 /* Общие стили и переменные */
 :root {
 	--text: #3c4146;
+	--secondary-text: #767676;
+	--main-ff: 'Segoe UI', Helvetica, Arial, sans-serif;
+	--secondary-ff: 'Roboto', 'Segoe UI', Helvetica, Arial, sans-serif;
 }
 
 body {
-	font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+	font-family: var(--main-ff);
 	color: var(--text);
 }
 
@@ -93,4 +96,65 @@ body {
 	display: block;
 	max-width: 1253px;
 	margin: 0 auto;
+}
+
+/* Блок с предложением начать использование */
+.start {
+	font-family: var(--secondary-ff);
+	padding: 64px 0;
+}
+
+.start__title {
+	margin-top: 0;
+	margin-bottom: 17px;
+	text-align: center;
+	font-size: 38px;
+	font-weight: 300;
+	line-height: 1.2;
+}
+
+.start__text {
+	text-align: center;
+	font-size: 26px;
+	color: var(--secondary-text);
+	font-weight: 300;
+	line-height: 1.5;
+	margin-bottom: 64px;
+	margin-top: 0;
+}
+
+.btn {
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	line-height: 1.5;
+	border: 1px solid #d5d5d5;
+	border-radius: 4px;
+	padding: 9px 16px;
+	vertical-align: middle;
+	font-weight: 600;
+	font-size: 16px;
+	font-family: var(--main-ff);
+}
+
+.btn_blue {
+	background-color: #0079d1;
+	border-color: #005b9e;
+	text-shadow: 0 -1px 0 rgba(0,0,0,.15);
+}
+
+.btn_blue:hover {
+	background-color: #006ab8;
+	border-color: #004d85;
+}
+
+.start__button {
+	text-align: center;
+}
+
+.start__hr {
+	margin: 64px 0;
+	border: 0;
+	height: 0;
+	border-bottom: 1px solid #e5e5e5;
 }
