@@ -16,6 +16,10 @@ a {
 	cursor: pointer;
 }
 
+::placeholder {
+	opacity:.54
+}
+
 .container {
 	max-width: 980px;
 	margin: 0 auto;
@@ -143,6 +147,11 @@ a {
 	font-weight: 600;
 	font-size: 16px;
 	font-family: var(--main-ff);
+	
+}
+
+.btn:hover {
+	cursor: pointer;
 }
 
 .btn_blue {
@@ -373,6 +382,7 @@ a {
 	margin-top: 0;
 	margin-bottom: 7px;
 	text-decoration: none;
+	opacity: .8;
 }
 
 .article__title:hover,
@@ -399,4 +409,64 @@ a {
 	height: 16px;
 	vertical-align: middle;
 	margin-right: 8px;
+}
+
+/* Блок подписаться */
+.subs-fluid {
+	background-color: #0079d1;
+	padding: 16px 0;
+}
+
+.subs {
+	display: grid;
+	grid-template-columns: 490px auto;
+}
+
+.subs__desc {
+	margin: 16px 0;
+}
+
+.subs__title {
+	font-family: var(--secondary-ff);
+	color: #fff;
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 1.4;
+	margin: 0;
+}
+
+.subs__text {
+	color: rgba(255,255,255,.7);
+	font-size: 14px;
+	margin: 0;
+}
+
+.subs__btn {
+	width: 142px;
+	height: 42px;
+	margin-bottom: 4px;
+}
+
+.subs__form {
+	align-self: center;
+}
+
+.subs__email {
+	min-height: 42px;
+	width: 316px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #333;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	box-sizing: border-box;
+	border-radius: 3px;
+	outline: none;
+	box-shadow: inset 0 1px 2px rgba(0,0,0,.075);
+	padding: 6px 8px;
+	margin-right: 24px;
+}
+
+.subs__email::placeholder {
+	color: #767676;
 }
