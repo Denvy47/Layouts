@@ -2,4 +2,4 @@
 
 ##### Все сверстанные макеты из psd кладу в этот репозиторий
 
-Список готовых страниц по ссылке: https://denvy47.github.io/GitAPI/index.html
+Список готовых страниц по ссылке: https://denvy47.github.io/Layouts/index.html
