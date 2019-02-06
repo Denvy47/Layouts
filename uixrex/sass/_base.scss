@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600|Poppins:400,600');
+$main-font: 'Poppins',
+sans-serif;
+$secondary-font: 'Montserrat',
+sans-serif;
+$blue: #4085f6;
+body {
+  font-family: $main-font;
+  max-width: 1920px;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1170px;
+}
+
+.section-title {
+  font-family: $secondary-font;
+  font-weight: 500;
+  color: #5d5d5d;
+  font-size: 36px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section-text {
+  font-size: 20px;
+  text-align: center;
+  color: #737373;
+  line-height: 36px;
+  max-width: 913px;
+  margin-bottom: 90px;
+}
+
+.title {
+  font-family: $main-font;
+  font-weight: 600;
+  color: white;
+}
+
+.main-background {
+  background: linear-gradient(250deg, #4085f6, #1760d7);
+  ;
+}

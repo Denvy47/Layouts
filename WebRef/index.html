@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>WebReference</title>
+	<link rel="shortcut icon" type="image/png" href="favicon.png">
+	<link rel="stylesheet" href="css/normalize.css" type="text/css">
+	<link rel="stylesheet" href="css/fontello.css" type="text/css">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+	<!-- Шапка -->
+	<div id="top" class="header_fluid">
+		<div class="container">
+			<header class="header">
+				<a class="header__title" href="#">WebReference<span>.</span>ru</a>
+				<nav class="header__menu">
+					<ul class="header__menuList">
+						<li><a href="#">Справочники</a></li>
+						<li><a href="#">Вёрстка</a></li>
+						<li><a href="#">Веб-технологии</a></li>
+						<li><a href="#">Мобильные приложения</a></li>
+						<li><a href="#">Курсы</a></li>
+					</ul>
+				</nav>
+			</header>
+		</div>
+	</div>
+	<!-- Основное наполнение -->
+	<main class="main">
+		<!-- Блок с иконками меню и описанием -->
+		<div class="topMenu_fluid">
+			<div class="container">
+				<section class="topMenu">
+					<section class="topMenu__item">
+						<a class="topMenu__link" href="#">
+						<i class="icon-book topMenu_icon"></i>
+						<h3 class="topMenu__title">Справочники</h3>
+						<p class="topMenu__text">Справочники по элементам HTML и свойствам CSS</p>
+						</a>
+					</section>
+					<section class="topMenu__item">
+						<a class="topMenu__link" href="#">
+						<i class="icon-buffer topMenu_icon"></i>
+						<h3 class="topMenu__title">Вёрстка</h3>
+						<p class="topMenu__text">Руководства по работе со стилями и вёрстке веб-страниц</p>
+						</a>
+					</section>
+					<section class="topMenu__item">
+						<a class="topMenu__link" href="#">
+						<i class="icon-cog-alt topMenu_icon"></i>
+						<h3 class="topMenu__title">Веб-технологии</h3>
+						<p class="topMenu__text">Различные веб-технологии применяемые при разработке сайтов</p>
+						</a>
+					</section>
+					<section class="topMenu__item">
+						<a class="topMenu__link" href="#">
+						<i class="icon-mobile topMenu_icon"></i>
+						<h3 class="topMenu__title">Приложения</h3>
+						<p class="topMenu__text">Разработка мобильных приложений</p>
+						</a>
+					</section>
+				</section>
+			</div>
+		</div>
+		<!-- Секция с рекламой мобильных приложений -->
+		<div class="mobile_fluid">
+			<div class="container">
+				<a class="mobile" href="#">
+					<div class="mobile__text">
+						<h2>Наши приложения</h2>
+						<p>Установите наши мобильные приложения под Android для изучения HTML и CSS там, где вы пожелаете. Уроки содержат описание и интерактивные задания на закрепление материала. А справочники просто классные!</p>
+						<!-- Ссылка-кнопка -->
+						<span class="mobile__button">Перейти</span>
+					</div>
+					<img class="mobile__img" src="img/app.png" alt="Изображение иконок мобильных приложений">
+				</a>
+			</div>
+		</div>
+		<!-- Основное содержимое с колонкой плиток статей и сайдбаром -->
+		<div class="content_fluid">
+			<div class="container">
+				<div class="content">
+					<!-- Блок с плитками статей -->
+					<div class="articles">
+						<section class="article">
+							<div class="article__desc">
+								<div class="article__img">
+									<img src="img/form.svg" alt="Категория">
+								</div>
+								<div class="article__text">
+									<p>Псевдокласс <span>:focus</span> определяет стиль элемента, когда он получает фокус, иными словами, становится активным для взаимодействия. К примеру, при получении фокуса в текстовом поле можно набирать текст, на мобильных устройствах включается экранная клавиатура.</p>
+								</div>
+							</div>
+							<h3 class="article__title"><a href="#">Псевдокласс :focus</a></h3>
+							<h5 class="article__group">Вёрстка</h5>
+						</section>
+						<section class="article">
+							<div class="article__desc">
+								<div class="article__img">
+									<img src="img/html5_3d_effects.svg" alt="Категория">
+								</div>
+								<div class="article__text">
+									<p>Псевдокласс <span>:hover</span> определяет стиль элемента при наведении на него курсора мыши. Это один из самых самых популярных псевдоклассов, поскольку простыми методами позволяет создать разные эффекты и привлечь внимание к элементам интерфейса. К примеру, с помощью <span>:hover</span> можно менять цвет ссылок, создавать всплывающие подсказки, меню, увеличивать изображения и др.</p>
+								</div>
+							</div>
+							<h3 class="article__title"><a href="#">Псевдокласс :hover</a></h3>
+							<h5 class="article__group">Вёрстка</h5>
+						</section>
+						<section class="article">
+							<div class="article__desc">
+								<div class="article__img">
+									<img src="img/form.svg" alt="Категория">
+								</div>
+								<div class="article__text">
+									<p>Псевдокласс <span>:checked</span> определяет, помечен флажок (<code>&lt;input type="checkbox"&gt;</code>), переключатель (<code>&lt;input type="radio"&gt;</code>) или пункт списка (<code>&lt;option&gt;</code>), соответственно, применяет стиль только к помеченному элементу формы. С помощью <span>:checked</span> можно стильлизовать поля формы, создавать вкладки, меню, галерею изображений и др.</p>
+								</div>
+							</div>
+							<h3 class="article__title"><a href="#">Псевдокласс :checked</a></h3>
+							<h5 class="article__group">Вёрстка</h5>
+						</section>
+						<section class="article">
+							<div class="article__desc">
+								<div class="article__img">
+									<img src="img/section.svg" alt="Категория">
+								</div>
+								<div class="article__text">
+									<p>Вёрстка с помощью <b>flexbox</b>, официально называемая <a href="https://www.w3.org/TR/css-flexbox/">CSS Flexible Box Layout Module</a>, представляет собой новый модуль компоновки в CSS3, предназначенный для улучшения выравнивания, направления и порядка элементов в контейнере, даже если они имеют динамический или неизвестный размер.</p>
+								</div>
+							</div>
+							<h3 class="article__title"><a href="#">Визуальное руководство по свойствам flexbox</a></h3>
+							<h5 class="article__group">Вёрстка</h5>
+						</section>
+						<section class="article">
+							<div class="article__desc">
+								<div class="article__img">
+									<img src="img/section.svg" alt="Категория">
+								</div>
+								<div class="article__text">
+									<p>Практически любую веб-страницу можно разбить на ряд визуальных блоков, которые обычно отделяются друг от друга фоном или пустым пространством, поэтому хорошо заметны. Подобное разделение помогает нам ориентироваться на веб-странице и сразу выделять главное и второстепенное содержимое.</p>
+								</div>
+							</div>
+							<h3 class="article__title"><a href="#">Разделы веб-страницы</a></h3>
+							<h5 class="article__group">Учебный курс</h5>
+						</section>
+						<section class="article">
+							<div class="article__desc">
+								<div class="article__img">
+									<img src="img/pseudo-element.svg" alt="Категория">
+								</div>
+								<div class="article__text">
+									<p>Использование псевдоэлементов <a href="#">::after</a> и <a href="#">::before</a> является одним из самых популярных приёмов при вёрстке фрагментов веб-страниц и их стилизации. С их помощью можно выводить произвольный текст, добавлять тени, треугольники, линии и др.</p>
+								</div>
+							</div>
+							<h3 class="article__title"><a href="#">::after и ::before</a></h3>
+							<h5 class="article__group">Вёрстка</h5>
+						</section>
+						<section class="article">
+							<div class="article__desc">
+								<div class="article__img">
+									<img src="img/shape.svg" alt="Категория">
+								</div>
+								<div class="article__text">
+									<p>Стилевое свойство <span>clip-path</span> — это способ отказаться от однообразных прямоугольных макетов, традиционно ассоциируемых с плоским, адаптивным дизайном. Вы станете думать не только о прямоугольниках, на ваших страницах они буквально начнут принимать форму шестиугольников, звёзд и восьмиугольников.</p>
+								</div>
+							</div>
+							<h3 class="article__title"><a href="#">Создание адаптивных фигур с помощью clip-path</a></h3>
+							<h5 class="article__group">Вёрстка</h5>
+						</section>
+						<section class="article">
+							<div class="article__desc">
+								<div class="article__img">
+									<img src="img/layout.svg" alt="Категория">
+								</div>
+								<div class="article__text">
+									<p>Стилевое свойство <span>float</span> изначально было внедрено в CSS для создания обтекаемых картинок и текстовых врезок, но со временем расширило сферу своего применения. Веб-разработчикам не хватало инструментов для вёрстки макетов, таблицы же для этих целей оказались громоздки, неудобны и морально устарели. На смену таблицам для вёрстки колонок приспособили <span>float</span>, несмотря на то, что это свойство не предназначено для этой роли.</p>
+								</div>
+							</div>
+							<h3 class="article__title"><a href="#">float в теории и на практике</a></h3>
+							<h5 class="article__group">Учебный курс</h5>
+						</section>
+						<section class="article">
+							<div class="article__desc">
+								<div class="article__img">
+									<img src="img/positioning.svg" alt="Категория">
+								</div>
+								<div class="article__text">
+									<p>Позиционированием называется положение элемента в системе координат. Различают несколько типов позиционирования: нормальное, относительное, абсолютное, фиксированное и приклеенное. В зависимости от типа, который устанавливается через свойство <a class="descr_link" href="#">position</a>, меняется и система координат.</p>
+								</div>
+							</div>
+							<h3 class="article__title"><a href="#">Позиционирование элементов</a></h3>
+							<h5 class="article__group">Учебный курс</h5>
+						</section>
+						<section class="article">
+							<div class="article__desc">
+								<div class="article__img">
+									<img src="img/box.svg" alt="Категория">
+								</div>
+								<div class="article__text">
+									<p>В HTML4 практически все элементы относятся к двум типам, различающихся своим поведением и свойствами — это блочные и строчные элементы.</p>
+								</div>
+							</div>
+							<h3 class="article__title"><a href="#">Блочные и строчные элементы</a></h3>
+							<h5 class="article__group">Учебный курс</h5>
+						</section>
+						<section class="article">
+							<div class="article__desc">
+								<div class="article__img">
+									<img src="img/jekyll.svg" alt="Категория">
+								</div>
+								<div class="article__text">
+									<p>Jekyll является наиболее популярным генератором статичного сайта. Он берёт исходные файлы и создаёт сайт из статичных страниц, готовых обслуживать пользователей напрямую. Это отличается от того, как работают традиционные CMS, вроде WordPress.</p>
+								</div>
+							</div>
+							<h3 class="article__title"><a href="#">Создание сайта на Jekyll</a></h3>
+							<h5 class="article__group">Веб-технологии</h5>
+						</section>
+						<section class="article">
+							<div class="article__desc">
+								<div class="article__img">
+									<img src="img/html5.svg" alt="Категория">
+								</div>
+								<div class="article__text">
+									<p>HTML (HyperText Markup Language, язык разметки гипертекста) — это язык разметки, который определяет, какие элементы должны располагаться на веб-странице. Текст, ссылки, изображения, списки, таблицы, видео и др. — всё это является элементами, которые можно отобразить на веб-странице с помощью HTML.</p>
+								</div>
+							</div>
+							<h3 class="article__title"><a href="#">Самоучитель HTML</a></h3>
+							<h5 class="article__group">Учебный курс</h5>
+						</section>
+						<!-- пагинатор -->
+						<div class="pages">
+							<ul>
+								<li><a href="#">1</a></li>
+								<li><a href="#">2</a></li>
+								<li><a href="#">3</a></li>
+								<li><a href="#">4</a></li>
+								<li><a href="#"><i class="icon-angle-right"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<!-- Cайдбар -->
+					<aside class="sidebar">
+						<form class="sidebar__search" action="#">
+							<input type="search" placeholder="Введите HTML или CSS">
+						</form>
+						<!-- Cекция со списком тегов -->
+						<section class="sidebar__block">
+							<h3 class="sidebar__title">Технологии</h3>
+							<div>
+								<ul class="sidebar__tagsList">
+									<li><a href="#">AngularJS</a></li>
+									<li><a href="#">Bootstrap</a></li>
+									<li><a href="#">Bower</a></li>
+									<li><a href="#">Corona SDK</a></li>
+									<li><a href="#">CSS3</a></li>
+									<li><a href="#">Express</a></li>
+									<li><a href="#">Grunt</a></li>
+									<li><a href="#">Gulp</a></li>
+									<li><a href="#">Haml</a></li>
+									<li><a href="#">HTML5</a></li>
+									<li><a href="#">JavaScript</a></li>
+									<li><a href="#">Jekyll</a></li>
+									<li><a href="#">jQuery</a></li>
+									<li><a href="#">Less</a></li>
+									<li><a href="#">Lua</a></li>
+									<li><a href="#">Node.js</a></li>
+									<li><a href="#">Sass</a></li>
+									<li><a href="#">Yeoman</a></li>
+								</ul>
+							</div>
+						</section>
+						<!-- Родительский блок с секциями рекомендуемых курсов -->
+						<div class="sidebar__block">
+							<section>
+								<h3 class="sidebar__title">Рекомендуемое прохождение курсов</h3>
+								<!-- Дочерняя секция списка курсов -->
+								<section class="courses">
+									<h4 class="courses__title">HTML. Уровень 1</h4>
+									<a href="#">
+											<img src="img/internet.svg" alt="">
+											<p>Введение в Интернет</p>
+										</a>
+									<br>
+									<a href="#">
+											<img src="img/html5.svg" alt="">
+											<p>Основы HTML</p>
+										</a>
+									<br>
+									<a href="#">
+											<img src="img/html5_semantics.svg" alt="">
+											<p>Содержимое в HTML</p>
+										</a>
+									<br>
+								</section>
+								<!-- Дочерняя секция списка курсов -->
+								<section class="courses">
+									<h4 class="courses__title">HTML. Уровень 2</h4>
+									<a href="#">
+											<img src="img/internet.svg" alt="">
+											<p>Самоучитель HTML</p>
+										</a>
+									<a href="#">
+											<img src="img/form.svg" alt="">
+											<p>Формы в HTML</p>
+										</a>
+								</section>
+							</section>
+							<!-- дочерняя секция списка курсов -->
+							<section class="courses">
+								<h4 class="courses__title">CSS. Урвоень 1</h4>
+								<a href="#">
+									<img src="img/css3.svg" alt="">
+									<p>Основы CSS</p>
+								</a>
+								<a href="#">
+									<img src="img/text.svg" alt="">
+									<p>Текст в CSS</p>
+								</a>
+								<a href="#">
+									<img src="img/box.svg" alt="">
+									<p>Блочная модель в CSS</p>
+								</a>
+								<a href="#">
+									<img src="img/positioning.svg" alt="">
+									<p>Позиционирование в CSS</p>
+								</a>
+								<a href="#">
+									<img src="img/html5_device_access.svg" alt="">
+									<p>Продвинутый CSS</p>
+								</a>
+							</section>
+							<!-- дочерняя секция списка курсов -->
+							<section class="courses">
+								<h4 class="courses__title">CSS. Уровень 2</h4>
+								<a href="#">
+									<img src="img/box.svg" alt="">
+									<p>Блочные и строчные элементы</p>
+								</a>
+								<a href="#">
+									<img src="img/layout.svg" alt="">
+									<p>float в теории и на практике</p>
+								</a>
+								<a href="#">
+									<img src="img/positioning.svg" alt="">
+									<p>Позиционирование элементов</p>
+								</a>
+							</section>
+						</div>
+					</aside>
+				</div>
+			</div>
+		</div>
+		<!-- Красная полоса с рекламой -->
+		<div class="advert_fluid">
+			<div class="container">
+				<a class="advert" href="#">
+					<img src="img/htmltutorial.png" alt="">			
+				</a>
+			</div>
+		</div>
+		<!-- Секция с информацией по лицензиям -->
+		<section class="licenses_fluid">
+			<div class="container">
+				<a class="licenses__link" href="#">
+					<img src="img/cc.png" alt="Картинка лицензии">
+				</a>
+				<p class="licenses__text">Все материалы сайта доступны по <a href="#">лицензии Creative Commons «Attribution-NonCommercial» («Атрибуция — Некоммерческое использование») 4.0 Всемирная</a>, если не указано иное.</p>
+			</div>
+		</section>
+	</main>
+	<!-- Подвал -->
+	<div class="footer_fluid">
+		<div class="container">
+			<footer class="footer">
+				<!-- О сайте -->
+				<section class="footer_col">
+					<h2>О сайте</h2>
+					<p>На сайте находятся справочники по различным веб-технологиям, а также руководства по вёрстке веб-страниц и разработке мобильных приложений</p>
+					<cite>Главный редактор: Влад Мержевич</cite>
+				</section>
+				<!-- Связи -->
+				<section class="footer_col">
+					<h2>Связи</h2>
+					<ul>
+						<li><i class="icon-rss"></i><a href="#">RSS</a></li>
+						<li><i class="icon-jsfiddle"></i><a href="#">JSFiddle</a></li>
+						<li><i class="icon-github"></i><a href="#">GitHub</a></li>
+						<li><i class="icon-vkontakte"></i><a href="#">Вконтакте</a></li>
+						<li><i class="icon-doc-text"></i><a href="#">Google Диск</a></li>
+					</ul>
+				</section>
+				<!-- Разделы сайта -->
+				<section class="footer_col">
+					<h2>Разделы сайта</h2>
+					<ul>
+						<li><i class="icon-book"></i><a href="#">Справочники</a></li>
+						<li><i class="icon-buffer"></i><a href="#">Вёрстка</a></li>
+						<li><i class="icon-cog-alt"></i><a href="#">Веб-технологии</a></li>
+						<li><i class="icon-mobile"></i><a href="#">Мобильные приложения</a></li>
+						<li><i class="icon-bookmark"></i><a href="#">Учебные курсы</a></li>
+					</ul>
+				</section>
+				<!-- Популярные материалы -->
+				<section class="footer_col">
+					<h2>Популярные материалы</h2>
+					<ul>
+						<li><i class="icon-html5"></i><a href="#">Уроки по HTML и CSS</a></li>
+						<li><i class="icon-html5"></i><a href="#">Как верстать на HTML5 и CSS3</a></li>
+						<li><i class="icon-html5"></i><a href="#">HTML5 и CSS3 на примерах</a></li>
+						<li><i class="icon-css3"></i><a href="#">Магия CSS</a></li>
+						<li><i class="icon-file-code"></i><a href="#">Основы jQuery</a></li>
+					</ul>
+				</section>
+			</footer>
+		</div>
+		<a class="mv_up" href="#top">Наверх</a>
+	</div>
+</body>
+
+</html>
