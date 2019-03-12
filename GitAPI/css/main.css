@@ -23,6 +23,8 @@ a {
 .container {
 	max-width: 980px;
 	margin: 0 auto;
+	padding: 0 17px;
+	overflow-x: hidden;
 }
 
 /* Header */
@@ -104,7 +106,8 @@ a {
 /* Главная картинка с эмблемой */
 .image__picture {
 	display: block;
-	max-width: 1253px;
+	max-width: 100%;
+	height: auto;
 	margin: 0 auto;
 }
 
@@ -423,8 +426,8 @@ a {
 }
 
 .subs {
-	display: grid;
-	grid-template-columns: 490px auto;
+	display: flex;
+	justify-content: space-between;
 }
 
 .subs__desc {
@@ -457,7 +460,7 @@ a {
 }
 
 .subs__email {
-	min-height: 42px;
+	height: 42px;
 	width: 316px;
 	font-size: 14px;
 	line-height: 20px;
