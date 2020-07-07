@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>GitHub Developer | GitHub Developer Guide</title>
+	<link rel="stylesheet" href="lib/normalize.css">
+	<link rel="stylesheet" href="css/fonts.css">	
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+	<!-- Header -->
+	<div class="header-fluid">
+		<div class="container">
+			<header class="header">
+				<div class="header__logo">
+					<a href="#"><img src="img/github-developer-logo.svg" alt="logo"></a>
+				</div>
+				<div class="header__menu">
+					<nav class="header__nav">
+						<ul class="header__nav-list">
+							<li class="header__nav-item"><a class="header__nav-link" href="#">API Docs</a></li>
+							<li class="header__nav-item"><a class="header__nav-link" href="#">Blog</a></li>
+							<li class="header__nav-item"><a class="header__nav-link" href="#">Forum</a></li>
+							<li class="header__nav-item"><a class="header__nav-link" href="#">Versions</a></li>
+						</ul>
+					</nav>
+					<form action="#" class="header__search">
+						<input class="header__input" type="text" placeholder="Search...">
+					</form>
+				</div>
+			</header>
+		</div>
+	</div>
+	<main class="main">
+		<!-- Главная картинка с эмблемой -->
+		<div class="image">
+			<img class="image__picture" src="img/hero-circuit-bg.svg" alt="GitHub picture">
+		</div>
+		<!-- Блок с предложением начать использование -->
+		<section class="start">
+			<div class="container">
+				<h2 class="start__title">Build your app on GitHub's platform</h2>
+				<p class="start__text">Not sure where to start? We’ve put together some handy guides and reference documentation you can use to start building.</p>				
+				<div class="start__button">
+					<a href="#" class="btn btn_blue">Learn more about v4 of the GitHub API</a>
+				</div>
+				<hr class="start__hr">			
+			</div>
+		</section>
+		<!-- Секция со статьями и сайдбаром -->
+		<div class="container">
+			<section class="content">			
+				<!-- Статьи -->
+				<div class="articles">				
+					<article class="article">
+						<h3 class="title">Introduction to GraphQL</h3>
+						<p class="text">Let's walk through the inner workings of our GraphQL API.</p>
+						<a class="link-cons" href="#">Read the guide &#8594;</a>
+					</article>
+					<article class="article">
+						<h3 class="title">Forming API calls with GraphQL</h3>
+						<p class="text">In this section, we're going to focus on how to form a GraphQL API call.</p>
+						<a class="link-cons" href="#">Read the guide &#8594;</a>
+					</article>
+					<article class="article">
+						<h3 class="title">Migrating from REST to GraphQL</h3>
+						<p class="text">We'll also help you explore the path to migrating from REST to GraphQL.</p>
+						<a class="link-cons" href="#">Read the guide &#8594;</a>
+					</article>
+					<article class="article">
+						<h3 class="title">Building a GitHub App or an OAuth App</h3>
+						<p class="text">Choose GitHub Apps or OAuth Apps to get started developing an integration.</p>
+						<a class="link-cons" href="#">Read the docs &#8594;</a>
+					</article>
+				</div>					
+				<!-- Сайдбар -->
+				<aside class="sidebar">
+					<div class="sidebar__block">
+						<h2 class="title sidebar__title">Ecosystem</h2>
+						<p class="text sidebar__text">Showcase what you've built on GitHub</p>
+					</div>
+					<div class="sidebar__block">
+						<ul class="sidebar__list">
+							<li class="sidebar__list-item"><a class="link-cons sidebar_link" href="#">Marketplace</a></li>
+							<li class="sidebar__list-item"><a class="link-cons sidebar_link" href="#">Marketplace Guidelines</a></li>
+							<li class="sidebar__list-item"><a class="link-cons sidebar_link" href="#">Work with GitHub</a></li>
+							<li class="sidebar__list-item"><a class="link-cons sidebar_link" href="#">Work with GitHub Guidelines</a></li>
+						</ul>
+					</div>
+					<div class="sidebar__block">
+						<a class="sidebar__footer-link" href="#">Join the GitHub Developer Program</a>
+					</div>
+				</aside>	
+			</section>				
+		</div>
+		<!-- Что может гит. Плитки -->
+		<div class="container">
+			<h2 class="start__title tiles-block__title">See what others have built on GitHub</h2>
+			<p class="start__text">Build with tools from GitHub Marketplace.</p>
+			<div class="tiles">
+				<a class="tiles__item">
+					<img src="img/icon-circle-ci.png" alt="icon" class="tiles__pic">
+					<h3 class="tiles__title">Circle CI</h3><br>
+					<p class="tiles__text">Continuous Integration</p>
+				</a>
+				<a class="tiles__item">
+					<img src="img/icon-zenhub.png" alt="icon" class="tiles__pic">
+					<h3 class="tiles__title">ZenHub</h3><br>
+					<p class="tiles__text">Project Management</p>
+				</a>
+				<a class="tiles__item">
+					<img src="img/icon-codecov.png" alt="icon" class="tiles__pic">
+					<h3 class="tiles__title">Codecov</h3><br>
+					<p class="tiles__text">Code Quality</p>
+				</a>
+				<a class="tiles__item">
+					<img src="img/icon-rollbar.png" alt="icon" class="tiles__pic">
+					<h3 class="tiles__title">Rollbar</h3><br>
+					<p class="tiles__text">Monitoring</p>
+				</a>
+				<a class="tiles__item">
+					<img src="img/icon-codetree.png" alt="icon" class="tiles__pic">
+					<h3 class="tiles__title">Codetree</h3><br>
+					<p class="tiles__text">Project Management</p>
+				</a>
+				<a class="tiles__item">
+					<img src="img/icon-appveyor.png" alt="icon" class="tiles__pic">
+					<h3 class="tiles__title">Appveyor</h3><br>
+					<p class="tiles__text">Continuous Integration</p>
+				</a>
+			</div>
+			<div class="tiles__btn-block">
+				<a href="#" class="btn tiles__btn">Browse GitHub Marketplace</a>
+			</div>
+		</div>
+		<!-- Последние обновления гит -->
+		<div class="updates-fluid">
+			<div class="container">
+				<h2 class="start__title">Stay in the know</h2>
+				<p class="start__text">Keep up to date with the latest updates to the GitHub API</p>
+				<div class="articles">
+					<ul class="articles__list">
+						<li class="article__item">
+							<a class="article__title">New webhook event for GitHub Apps using User-to-Server tokens</a>
+							<span class="article__text article__date">July 25, 2018</span>
+							<img src="img/tarebyte.jpg" alt="photo" class="article__pic">
+							<a href="#" class="article__link article__text">tarebyte</a>
+							<img src="img/wilhelmklopp.png" alt="photo" class="article__pic">
+							<a href="#" class="article__link article__text">wilhelmklopp</a>
+						</li>
+						<li class="article__item">
+							<a class="article__title">Preview the GraphQL API for Checks</a>
+							<span class="article__text article__date">July 11, 2018</span>
+							<img src="img/gjtorikian.jpg" alt="photo" class="article__pic">
+							<a href="#" class="article__link article__text">gjtorikian</a>
+							<img src="img/LizzHale.jpg" alt="photo" class="article__pic">
+							<a href="#" class="article__link article__text">LizzHale</a>
+						</li>
+						<li class="article__item">
+							<a class="article__title">New API parameters for project card archiving</a>
+							<span class="article__text article__date">June 27, 2018</span>
+							<img src="img/jakeboxer.jpg" alt="photo" class="article__pic">
+							<a href="#" class="article__link article__text">jakeboxer</a>						
+						</li>
+						<li class="article__item">
+							<a class="article__title">New endpoints to find app installations</a>
+							<span class="article__text article__date">June 15, 2018</span>
+							<img src="img/tarebyte.jpg" alt="photo" class="article__pic">
+							<a href="#" class="article__link article__text">tarebyte</a>
+							<img src="img/wilhelmklopp.png" alt="photo" class="article__pic">
+							<a href="#" class="article__link article__text">wilhelmklopp</a>
+						</li>
+						<li class="article__item">
+							<a class="article__title">Global node IDs become an official part of REST API v3</a>
+							<span class="article__text article__date">May 30, 2018</span>
+							<img src="img/d12.png" alt="photo" class="article__pic">
+							<a href="#" class="article__link article__text">d12</a>
+							<img src="img/bswinnerton.jpg" alt="photo" class="article__pic">
+							<a href="#" class="article__link article__text">bswinnerton</a>
+						</li>
+						<li class="article__item">
+							<a class="article__title">User Migration API public beta</a>
+							<span class="article__text article__date">May 24, 201</span>
+							<img src="img/benbalter.jpg" alt="photo" class="article__pic">
+							<a href="#" class="article__link article__text">benbalter</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- Блок подписаться -->
+		<div class="subs-fluid">
+			<div class="container">
+				<div class="subs">
+					<div class="subs__desc">
+						<h4 class="subs__title">Never miss an update!</h4>
+						<p class="subs__text">Join the newsletter to be informed of every new update.</p>
+					</div>
+					<div class="subs__form">
+						<input type="text" class="subs__email" placeholder="Your email">
+						<input type="submit" value="Join" class="btn btn_blue subs__btn">
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<div class="container">
+		<footer class="footer">			
+			<span class="footer__copyright">© 2018 GitHub Inc. All rights reserved.</span>
+			<div class="footer__logo-block">
+				<img src="img/mark-github.svg" alt="logotype" class="footer__logo">
+			</div>
+			<ul class="footer__menu">
+				<li class="footer__menu-item"><a href="#" class="footer__menu-link">Terms of service</a></li>
+				<li class="footer__menu-item"><a href="#" class="footer__menu-link">Privacy</a></li>
+				<li class="footer__menu-item"><a href="#" class="footer__menu-link">Security</a></li>
+				<li class="footer__menu-item"><a href="#" class="footer__menu-link">Support</a></li>
+			</ul>			
+		</footer>
+	</div>
+</body>
+</html>
