@@ -1,5 +1,3 @@
-#### Репозиторий для обучения верстке
+#### Study to markup html / css
 
-##### Все сверстанные макеты из psd кладу в этот репозиторий
-
-Список готовых страниц по ссылке: https://denvy47.github.io/Layouts/index.html
+Result: https://maksimterekhov.github.io/Layouts/
